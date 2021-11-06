@@ -439,29 +439,15 @@ footer{
         font-size: 9rem;
         text-shadow: -0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.301);
         letter-spacing: 0.2rem;
-        color: #3D3D4A;
-        text-transform: uppercase;
     }
 
     .btn {
         width: 20rem;
         height: 6rem;
-        background-color: #2f2e41;
-        box-shadow: 0.2rem 0.2rem 3rem rgb(0 0 0 / 10%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
         margin-top: 2rem;
         margin-left: 7%;
-        color: #fff;
-        font-family: calibri;
-        font-weight: 600;
         letter-spacing: 0.05rem;
         font-size: 2.5rem;
-        outline: none;
-        cursor: pointer;
-        border: transparent !important;
     }
 
     .logo {
