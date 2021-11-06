@@ -31,7 +31,6 @@ a {
     font-weight: bold;
     color: #1f1f1f;
     font-size: 3.5rem;
-    letter-spacing: 1;
 }
 
 .SearchArea {
@@ -122,7 +121,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10% 10% 10% / 50% 50% 50% 50%;
+    border-radius: 10% 10% 10% 10%/ 50% 50% 50% 50%;
     margin-top: 2rem;
     color: #fff;
     font-family: calibri;
@@ -411,8 +410,68 @@ footer{
 
 /*Mobile View*/
 
-@media(max-width:360px){
+@media(max-width:375px){
     html{
         font-size: 30%;
+    }
+
+    .section1{
+        position: absolute;
+        left: 16.5%;
+        top: 85%;
+        transform: translate(-16.5%, -85%);
+    }  
+
+    .section1 img{
+        height: 47rem;
+    }
+    
+    .section1Button{
+        position: absolute;
+        top: 35%;
+        left: 90%;
+    } 
+    
+    .section1Button h1, h2{
+        font-weight: bold;
+        margin: 5rem;
+        line-height: 7rem;
+        font-size: 9rem;
+        text-shadow: -0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.301);
+        letter-spacing: 0.2rem;
+    }
+
+    .btn {
+        width: 20rem;
+        height: 6rem;
+        margin-top: 2rem;
+        margin-left: 7%;
+        letter-spacing: 0.05rem;
+        font-size: 2.5rem;
+    }
+
+    .logo {
+        position: absolute;
+        left: 6rem;
+        top: 5rem;
+    }
+
+    .logo a {
+        font-size: 7.2rem;
+    }
+
+    .SearchArea{
+        position: fixed;
+        right: 6rem;
+        top: 5rem;
+        width: 23rem;
+        height: 6.5rem;
+    }
+
+    .searchbox input{
+        width: 11rem;
+        height: 4rem;
+        font-size: 2rem;
+        padding: 1rem 1rem;
     }
 }
