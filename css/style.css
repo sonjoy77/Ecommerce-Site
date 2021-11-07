@@ -406,6 +406,40 @@ footer{
     html{
         font-size: 45%;
     }
+
+    .container{
+        width: 105%;
+    }
+
+    .SearchArea{
+        right: 5rem;
+    }
+
+    .section1{
+        position: absolute;
+        left: 18%;
+        top: 80%;
+        transform: translate(-18%, -80%);
+    }
+
+    .section1Button{
+        position: absolute;
+        top: 35%;
+        left: 75%;
+        transform: translate(-75%,-35%);
+    }
+
+    .section1Button h1, h2{
+        font-size: 6.5rem;
+    }
+
+    .Notification{
+        width: 105%;
+    }
+
+    footer{
+        width: 105%;
+    }
 }
 
 /*Mobile View*/
@@ -413,6 +447,10 @@ footer{
 @media(max-width:375px){
     html{
         font-size: 30%;
+    }
+
+    .container{
+        width: 100%;
     }
 
     .section1{
@@ -473,5 +511,22 @@ footer{
         height: 4rem;
         font-size: 2rem;
         padding: 1rem 1rem;
+    }
+
+    .productsection{
+        width: 85%;
+        margin: 0rem 3rem;
+    }
+
+    .about{
+        width: 100%;
+    }
+    
+    .Notification{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
     }
 }
