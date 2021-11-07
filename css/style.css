@@ -12,7 +12,7 @@ html{
     display: flex;
     width: 100%;
     height: 100vh;
-    background-color:#ecddec;
+    background-color:#f7f5f7;
 }
 
 a {
@@ -26,11 +26,11 @@ a {
 }
 
 .logo a {
-    text-shadow: -0.4rem 0.2rem 0.5rem rgba(7, 7, 7, 0.459);
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: bold;
-    color: #1f1f1f;
-    font-size: 3.5rem;
+    text-shadow: -0.4rem 0.2rem 0.5rem rgba(37, 37, 37, 0.719);
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    color: #252525ec;
+    font-size: 4rem;
 }
 
 .SearchArea {
@@ -93,24 +93,30 @@ a {
 }
 
 .section1Button h1, h2{
-    font-family: Roboto;
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
     margin: 0rem;
     line-height: 7rem;
-    font-size: 6rem;
+    font-size: 6.5rem;
     text-shadow: -0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.301);
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.8rem;
     color: #3D3D4A;
     text-transform: uppercase;
 }
 
-span{
+.section1Button .color{
     color: #7230be;
-    font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.productsection .color1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    color: #7230be;
 }
 
 .section1Button h1{
-    letter-spacing: 3.2rem;
+    letter-spacing: 3.3rem;
 }
 
 .btn{
@@ -199,7 +205,7 @@ span{
 .productsection > h3{
     margin: 2rem;
     text-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.05);
-    font-family: myriad pro;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     letter-spacing: 0.2rem;
     text-align: center;
@@ -234,15 +240,15 @@ span{
 
 .productBox p{
     color: #25242488;
-    font-family: sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: 0.06rem;
+    font-family: 'Dongle', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.02rem;
 }
 
 .productBox a{
     color: #111111;
-    font-family: poppins;
-    font-size: 1.5rem;
+    font-family: 'Dongle', sans-serif;
+    font-size: 2.5rem;
 }
 
 .BuyBtn{
@@ -299,16 +305,24 @@ span{
 }
 
 .aboutBox h1{
-    color: #333333;
+    color: #050101fb;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
     font-size: 5rem;
     margin: 0rem;
 }
 
+.aboutBox .color2{
+    font-family: 'Open Sans', sans-serif;
+    color: #7230be;
+    font-size: 2.5rem;
+}
+
 .aboutBox h4{
     color: #2b2a2a;
+    font-family: 'Comfortaa', cursive;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -331,8 +345,8 @@ span{
 }
 
 .Notification h1{
-    font-family: sans-serif;
-    font-size: 2.3rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.5rem;
     color: rgb(56, 56, 56);
 }
 
@@ -346,7 +360,7 @@ span{
     align-items: center;
     padding: 1.5rem 1.5rem;
     box-shadow: 0.2rem 0.5rem 1.5rem rgba(0, 0, 0, 0.253);
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 
 .NotificationInput input{
@@ -382,13 +396,13 @@ footer{
     padding: 2rem;
 }
 
-.footerp{
-    margin-top: 1rem;
-    font-family: sans-serif;
+.footerp p{
+    margin-top: 0.5rem;
+    font-family: 'PT Sans', sans-serif;
     font-size: 1.5rem;
     text-align: center;
     color: #f2f2f2;
-    word-spacing: 0.5rem;
+    word-spacing: 0.2rem;
 }
 
 
